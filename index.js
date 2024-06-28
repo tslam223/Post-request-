@@ -3,7 +3,7 @@ function signUp(event) {
   const username = document.getElementById("text").value;
   const email = document.getElementById("email").value;
   const password = document.getElementById("password").value;
-  fetch("https://deluxgem-2.onrender.com/signup", {
+  fetch("https://deluxgem-2.onrender.com/sig", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
